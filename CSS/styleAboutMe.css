@@ -84,7 +84,36 @@
     height: 80vh;
     width: 80vh;
     margin-top: 10vh;
+    transition-delay: 500ms;
 }
+
+.hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hide {
+        transition: none;
+    }
+}
+
+.projects-section {
+    margin-bottom: 60vh;
+}
+
+.contact-section {
+    margin-bottom: 60vh;
+}
+
 
 @media(max-width:1200px) {
     .about-section {
@@ -122,7 +151,7 @@
     
     .name-text {
         margin: 0vh 0vh 1vh 0vh;
-        font-size: 5rem;
+        font-size: 3.5rem; /* ! Cand dai push pune 5rem ca sa mearga pe tel */
         color: var(--primary-color);
         font-weight: 600;
     }
