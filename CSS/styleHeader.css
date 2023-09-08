@@ -91,11 +91,13 @@ h1 {
 .logo_s {
     height: 8.5vh;
     width: 8.5vh;
+    cursor: pointer;
 }
 
 .logo_b {
     height: 8.5vh;
     width: 8.5vh;
+    cursor: pointer;
 }
 
 .hidden {
@@ -171,7 +173,7 @@ h1 {
     }
 
     .nav-item {
-        padding: 1vh 0
+        padding: 1vh 0;
     }
 
     .nav-menu.active{

@@ -53,6 +53,7 @@
     background: none;
     color: var(--primary-color);
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn_2 img {
@@ -73,6 +74,7 @@
     border-radius: 5vh;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .btn_2:hover {
@@ -92,12 +94,14 @@
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 1.5s;
+    bottom: 50px;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+    z-index: -10;
 }
 
 @media(prefers-reduced-motion) {
@@ -105,15 +109,6 @@
         transition: none;
     }
 }
-
-.projects-section {
-    margin-bottom: 60vh;
-}
-
-.contact-section {
-    margin-bottom: 60vh;
-}
-
 
 @media(max-width:1200px) {
     .about-section {

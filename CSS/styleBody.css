@@ -16,6 +16,14 @@ main {
     flex-direction: column;
 }
 
+.projects-section {
+    margin-bottom: 60vh;
+}
+
+.contact-section {
+    margin-bottom: 60vh;
+}
+
 @media(max-width:1200px) {
     main {
         margin-top: 8vh;
