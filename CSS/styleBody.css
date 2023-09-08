@@ -1,0 +1,26 @@
+body {
+    background-color: var(--secondary-color);
+    position: relative;
+}
+
+main {
+    margin-top: 9vh;
+}
+
+.body-container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+@media(max-width:1200px) {
+    main {
+        margin-top: 8vh;
+    }
+    .body-container {
+        width: 85%;
+    }
+}
