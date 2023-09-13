@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="CSS/styleBody.css">
         <link rel="stylesheet" href="CSS/styleLoading.css">
         <link rel="stylesheet" href="CSS/styleAboutMe.css">
+        <link rel="stylesheet" href="CSS/styleProjects.css">
         <script defer src="JS/functionHeader.js"></script>
         <script defer src="JS/functionLogo.js"></script>
         <script defer src="JS/functionLoading.js"></script>
@@ -33,7 +34,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="#scroll_projects" class="nav-link">
                                     <img class="link-img" src="ICONS/skill.png" alt="">
                                     <span class="link-text">Projects</span>
                                 </a>
@@ -64,7 +65,7 @@
             <div class="body-container">
                 <section class="about-section">
                     <div class="subsection-1">
-                        <h2 class="hello-text hide">Hello! I'm</h2>
+                        <h2 class="hello-text hide" >Hello! I'm</h2>
                         <h1 class="name-text hide">Chirieac Andrei-Gabriel</h1>
                         <p class="description-text hide">
                             Lorem ipsum dolor sit amet consectetur, 
@@ -74,19 +75,37 @@
                             aspernatur quibusdam aut obcaecati voluptas aliquid?
                         </p>
                         <div class="buttons">
-                            <button class="btn_1 hide">Download CV
-                            </button>
-                            <button class="btn_2 hide">Check my Projects
+                            <a href="#"><button class="btn_1 hide">Download CV
+                            </button></a>
+                            <a href="#"><button class="btn_2 hide">Check my Projects
                                 <img src="ICONS/arrow.png" alt="">
-                            </button>
+                            </button></a>
                         </div>
                     </div>
                     <div class="subsection-2">
                         <img class="about-me-img hide" src="IMG/About_me.png" alt="">
                     </div>
                 </section>
-                <section class="projects-section">
-                    <h1>Projects section</h1>
+                <section class="projects-section" id="scroll_projects">
+                    <h1 class="project-title hide" >Projects</h1>
+                    <div class="grid-projects">
+                        <div class="item">
+                            <a href="#"><img src="IMG/web_server_C.png" class="web_server_C delay hide" alt="C web server"></a>
+                            <h2 class="item-1-title delay hide">C web server</h2>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="IMG/placeholder.jpg" class="web_server_C hide" alt="placeholder"></a>
+                            <h2 class="item-1-title hide">PlaceHolder</h2>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="IMG/placeholder.jpg" class="web_server_C delay hide" alt="placeholder"></a>
+                            <h2 class="item-1-title delay hide">PlaceHolder</h2>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="IMG/placeholder.jpg" class="web_server_C hide" alt="placeholder"></a>
+                            <h2 class="item-1-title hide">PlaceHolder</h2>
+                        </div>
+                    </div>
                 </section>
                 <section class="contact-section">
                     <h1>Contact</h1>

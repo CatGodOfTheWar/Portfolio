@@ -16,8 +16,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--primary-color)
-}
+    background: var(--primary-color);
+    z-index: 10;
+} 
 
 li {
     list-style: none;
@@ -165,6 +166,12 @@ h1 {
         width: 100%;
         text-align: center;
         transition: 0.75s;
+    }
+
+    @media(prefers-reduced-motion) {
+        .nav-menu {
+            transition: none;
+        }
     }
 
     li {
