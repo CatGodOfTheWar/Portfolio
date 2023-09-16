@@ -21,12 +21,12 @@ main {
 }
 
 .projects-section {
-    margin-bottom: 100vh;
+    margin-bottom: 200vh;
     width: 100%;
 }
  
 .contact-section {
-    margin-bottom: 60vh;
+    margin-bottom: 10vh;
 }
 
 @media(max-width:1200px) {
@@ -38,7 +38,7 @@ main {
     }
 
     .projects-section {
-        margin-bottom: 120vh;
+        margin-bottom: 150vh;
         width: 100%;
     }
 }

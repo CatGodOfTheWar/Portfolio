@@ -1,0 +1,74 @@
+.contact_me {
+    font-size: 12rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 10vh;
+}
+
+.collaborate {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 1.5vh;
+}
+
+.mail {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding-bottom: 1vh;
+    margin-right: 1vh;
+}
+
+.email_link {
+    display: flex;
+    margin: auto;
+}
+
+.email-arrow {
+    height: 5vh;
+    width: 5vh;
+}
+
+@media(max-width:1200px) {
+    .contact_me {
+        font-size: 5rem;
+        font-style: italic;
+        font-weight: 500;
+        color: var(--primary-color);
+        margin-bottom: 10vh;
+    }
+    
+    .collaborate {
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: 400;
+        color: var(--primary-color);
+        margin-bottom: 1.5vh;
+    }
+    
+    .mail {
+        font-size: 1.5rem;
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: 400;
+        color: var(--primary-color);
+        padding-bottom: 1vh;
+        margin-right: 1vh;
+    }
+    
+    .email_link {
+        display: flex;
+        margin: auto;
+    }
+    
+    .email-arrow {
+        height: 2.5vh;
+        width: 2.5vh;
+    }
+
+}
