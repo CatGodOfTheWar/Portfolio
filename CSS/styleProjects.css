@@ -20,6 +20,11 @@
     border: 0.5vh solid var(--primary-color);
 }
 
+.web_server_C:hover {
+    box-shadow:
+    0 0 0.15rem 0.20rem var(--hightlights-color);
+}
+
 .item-1-title {
     font-size: 3rem;
     font-weight: 400;

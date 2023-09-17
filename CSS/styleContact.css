@@ -19,19 +19,19 @@
     font-style: italic;
     font-weight: 400;
     color: var(--primary-color);
-    border-bottom: 1px solid black;
     padding-bottom: 1vh;
 }
 
 .email_link {
     display: flex;
     margin: auto;
+    border-bottom: 1px solid black;
 }
 
 .email-arrow {
     height: 5vh;
     width: 5vh;
-    border-bottom: 1px solid black;
+    
 }
 
 .flex-container-email {
@@ -63,18 +63,18 @@
         font-weight: 400;
         color: var(--primary-color);
         padding-bottom: 1vh;
-        border-bottom: 1px solid black;
     }
     
     .email_link {
         display: flex;
         margin: auto;
+        border-bottom: 1px solid black;
     }
     
     .email-arrow {
         height: 3vh;
         width: 3vh;
-        border-bottom: 1px solid black;
+        
     }
 
     .flex-container-email {
