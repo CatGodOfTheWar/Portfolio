@@ -109,6 +109,16 @@ h1 {
     display: none;
 }
 
+@media(prefers-reduced-motion) {
+    .bar {
+        transition: none;
+    }
+
+    .link-text:hover {
+        transition: none;
+    }
+}
+
 @media(max-width:1200px) {
     * {
         font-size: 20px;

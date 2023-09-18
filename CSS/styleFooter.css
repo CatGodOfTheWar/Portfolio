@@ -27,6 +27,12 @@ footer {
     transition: 500ms ease-in-out;
 }
 
+@media(prefers-reduced-motion) { 
+    .sources a:hover {
+        transition: none;
+    }
+}
+
 @media(max-width:1200px) {
     .sources {
         width: 75%;

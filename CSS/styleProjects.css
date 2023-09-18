@@ -50,6 +50,12 @@
     transition-delay: 200ms;
 }
 
+@media(prefers-reduced-motion) {
+    .project:hover{
+        transition: none;
+    }
+}
+
 @media(max-width:1200px) {
     .grid-projects {
         height: 70vh;
