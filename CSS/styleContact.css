@@ -22,16 +22,16 @@
     padding-bottom: 1vh;
 }
 
-.email_link {
-    display: flex;
-    margin: auto;
-    border-bottom: 1px solid black;
-}
-
 .email-arrow {
     height: 5vh;
     width: 5vh;
     
+}
+
+.email_link {
+    display: flex;
+    margin: auto;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .flex-container-email {
@@ -68,7 +68,7 @@
     .email_link {
         display: flex;
         margin: auto;
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid var(--primary-color);
     }
     
     .email-arrow {
