@@ -31,7 +31,7 @@ main {
 
 @media(max-width:1200px) {
     main {
-        margin-top: 15vh;
+        margin-top: 20vh;
     }
     .body-container {
         width: 85%;
