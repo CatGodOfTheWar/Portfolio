@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleHeader.css">
+    <link rel="stylesheet" href="CSS/styleFooter.css">
+    <link rel="stylesheet" href="CSS/styleLoading.css">
+    <link rel="stylesheet" href="CSS_Projects/styleBody.css">
+    <script defer src="JS/functionHeader.js"></script>
+    <script defer src="JS/functionLogo.js"></script>
+    <script defer src="JS/functionLoading.js"></script>
+    <script defer src="JS/functionAnimation.js"></script>
+    <link rel="icon" type="image/gif" href="ICONS/b_cat.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
     <title>Projects</title>
 </head>
 <body>
-    <a href="index.html"><button>go back</button></a>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar"> 
+                    <img class="logo_s" src="ICONS/s_cat.png" alt="">
+                    <img class="logo_b hidden" src="ICONS/b_cat.png" alt="">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <img class="link-img" src="ICONS/about.png" alt="">
+                                <span class="link-text">About Me</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scroll_projects" class="nav-link">
+                                <img class="link-img" src="ICONS/skill.png" alt="">
+                                <span class="link-text">Projects</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <img class="link-img" src="ICONS/contact.png" alt="">
+                                <span class="link-text">Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/CatGodOfTheWar" target="_blank" class="nav-link">
+                                <img class="link-img" src="ICONS/github.png" alt="">
+                                <span class="link-text">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="loader"></div>
+        <a href="index.html"><button  class="btn">go back</button></a>
+    </main>
+    <footer>
+        <div class="sources">
+            <a href="http://www.onlinewebfonts.com" target="_blank">Web Fonts</a>
+            <a href="https://icons8.com/" target="_blank">Icons8</a>
+        </div>
+    </footer>
 </body>
 </html>
