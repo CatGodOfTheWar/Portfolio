@@ -38,4 +38,7 @@ main {
     .btn {
         font-size: 4rem;
     }
+    .footer-link {
+        font-size: 1rem;
+    }
 }
