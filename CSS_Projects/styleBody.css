@@ -17,7 +17,7 @@ main {
 
 .body-container {
     width: 75%;
-    height: 100vh;
+    height: 200vh;
     margin: auto;
     display: flex;
     align-items: center;
