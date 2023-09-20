@@ -104,6 +104,11 @@
         height: 65vh;
     }
 
+    .web_server_section {
+        display: flex;
+        height: 100vh;
+    }
+
     .title-web-server {
         font-size: 3rem;
         margin: 0;
