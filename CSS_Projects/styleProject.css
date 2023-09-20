@@ -88,6 +88,30 @@
     transform: translateX(0);
 }
 
+.delay_project {
+    transition-delay: 600ms;
+}
+
+.delay_1 {
+    transition-delay: 100ms;
+}
+
+.delay_2 {
+    transition-delay: 200ms;
+}
+
+.delay_3 {
+    transition-delay: 300ms;
+}
+
+.delay_4 {
+    transition-delay: 400ms;
+}
+
+.delay_5 {
+    transition-delay: 500ms;
+}
+
 @media(prefers-reduced-motion) {
     .hide {
         transition: none;   
