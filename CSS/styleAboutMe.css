@@ -104,7 +104,7 @@
 
 @media(prefers-reduced-motion) {
     .hide {
-        transition: none;
+        transition: none;   
     }
 }
 

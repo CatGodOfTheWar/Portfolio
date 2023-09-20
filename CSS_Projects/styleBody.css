@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
   }
 
 body {
@@ -26,6 +27,9 @@ main {
 }
 
 @media(max-width:1200px) {
+    html {
+        font-size: 20px;
+    }
     main {
         margin-top: 21vh;
     }
