@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
 body {
@@ -27,7 +27,7 @@ main {
 
 @media(max-width:1200px) {
     html {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     main {
         margin-top: 21vh;
@@ -37,8 +37,5 @@ main {
     }
     .btn {
         font-size: 4rem;
-    }
-    .footer-link {
-        font-size: 0.8rem !important;
     }
 }
