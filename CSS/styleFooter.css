@@ -14,7 +14,7 @@ footer {
     gap: 2vw;
 }
 
-.sources a {
+.footer-link {
     color: var(--secondary-color);
     font-size: 1.35rem;
     text-decoration: underline;
@@ -22,13 +22,13 @@ footer {
     font-style: italic;
 }
 
-.sources a:hover {
+.footer-link:hover {
     color: var(--hightlights-color);
     transition: 500ms ease-in-out;
 }
 
 @media(prefers-reduced-motion) { 
-    .sources a:hover {
+    .footer-link:hover {
         transition: none;
     }
 }
@@ -37,7 +37,7 @@ footer {
     .sources {
         width: 75%;
     }
-    .sources a {
+    .footer-link {
         font-size: 2rem;
     }
 
