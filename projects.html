@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="CSS/styleFooter.css">
     <link rel="stylesheet" href="CSS/styleLoading.css">
     <link rel="stylesheet" href="CSS_Projects/styleBody.css">
+    <link rel="stylesheet" href="CSS_Projects/styleProject.css">
+    <link rel="stylesheet" href="CSS/styleProjects.css">
+    <link rel="stylesheet" href="CSS/styleContact.css">
     <script defer src="JS/functionHeader.js"></script>
     <script defer src="JS/functionLogo.js"></script>
     <script defer src="JS/functionLoading.js"></script>
@@ -16,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-    <title>Projects</title>
+    <title>C Web Server</title>
 </head>
 <body>
     <div class="loader"></div>
@@ -30,13 +33,13 @@
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">
                                 <img class="link-img" src="ICONS/about.png" alt="">
-                                <span class="link-text">About Me</span>
+                                <span class="link-text">Home</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#scroll_projects" class="nav-link">
                                 <img class="link-img" src="ICONS/skill.png" alt="">
-                                <span class="link-text">Projects</span>
+                                <span class="link-text">Supplementary Projects</span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -63,7 +66,62 @@
     </header>
     <main>
         <div class="body-container">
-            <a href="index.html"><button  class="btn">go back</button></a>
+            <section class="web_server_section">
+                <div class="web_server_subcontainer subcontainer_1">
+                    <h1 class="title-web-server">C Web Server</h1>
+                    <p class="description-web-server">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Odio architecto ab dolor eveniet temporibus pariatur,
+                    voluptatibus quis debitis itaque assumenda amet, 
+                    eligendi iure! Distinctio quam tempore, rerum totam eum eligendi?
+                    </p>
+                    <div class="languages_used">
+                        <p class="language">CSS</p>
+                        <p class="language">C</p>
+                        <p class="language">JS</p>
+                        <p class="language">HTML</p>
+                        <p class="language">SHELL</p>
+                    </div>
+                    <a href="" class="source_code"><h2>Source code</h2></a>
+                </div>
+                <div class="web_server_subcontainer subcontainer_2">
+                    <img class="C_web_server" src="IMG/web_server_C.png" alt="">
+                </div>
+            </section>
+            <section class="projects-section" id="scroll_projects">
+                <div class="grid-projects">
+                    <div class="item item-1">
+                        <h1 class="project-title hide" >Supplementary Projects</h1>
+                    </div>
+                    <div class="item">
+                        <a href="projects.html"><img src="IMG/placeholder.jpg" class="project delay hide" alt="C web server"></a>
+                        <h2 class="item-1-title delay hide">PlaceHolder</h2>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="IMG/placeholder.jpg" class="project hide" alt="placeholder"></a>
+                        <h2 class="item-1-title hide">PlaceHolder</h2>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="IMG/placeholder.jpg" class="project delay hide" alt="placeholder"></a>
+                        <h2 class="item-1-title delay hide">PlaceHolder</h2>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="IMG/placeholder.jpg" class="project hide" alt="placeholder"></a>
+                        <h2 class="item-1-title hide">PlaceHolder</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section" id="contact">
+                <h1 class="contact_me hide">Contact me</h1>
+                <div class="flex-container-email">
+                    <h2 class="collaborate hide">Let's discuss!</h2>
+                <a href="https://proton.me/mail" target="_blank">
+                    <div class="email_link hide">
+                        <h3 class="mail">chirieacandrei@proton.me</h3>
+                        <img src="ICONS/email.png" alt="arrow" class="email-arrow">
+                    </div>
+                </a>
+                </div>
+            </section>
         </div>
     </main>
     <footer>

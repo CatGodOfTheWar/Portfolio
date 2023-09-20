@@ -12,10 +12,6 @@ main {
     margin-top: 9vh;
 }
 
-.btn {
-    font-size: 7rem;
-}
-
 .body-container {
     width: 75%;
     margin: auto;
@@ -23,6 +19,19 @@ main {
     align-items: center;
     justify-items: center;
     flex-direction: column;
+}
+
+.projects-section {
+    margin-bottom: 150vh;
+    width: 100%;
+}
+ 
+.contact-section {
+    margin-bottom: 10vh;
+}
+
+.project-title {
+    font-size: 7rem !important;
 }
 
 @media(max-width:1200px) {
@@ -34,9 +43,6 @@ main {
     }
     .body-container {
         width: 85%;
-    }
-    .btn {
-        font-size: 4rem;
     }
     .footer-link {
         font-size: 1rem;
