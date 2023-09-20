@@ -106,11 +106,11 @@
 
     .web_server_section {
         display: flex;
-        height: 130vh;
+        height: 100vh;
     }
 
     .title-web-server {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 2vh;
     }
 
