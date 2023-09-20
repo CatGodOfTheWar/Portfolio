@@ -88,10 +88,6 @@
     transform: translateX(0);
 }
 
-.delay_project {
-    transition-delay: 600ms;
-}
-
 .delay_1 {
     transition-delay: 100ms;
 }
