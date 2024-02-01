@@ -70,12 +70,6 @@
         margin: auto;
         border-bottom: 2px solid var(--primary-color);
     }
-    
-    .email-arrow {
-        height: 3vh;
-        width: 3vh;
-        
-    }
 
     .flex-container-email {
         display: flex;
