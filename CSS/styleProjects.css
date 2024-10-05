@@ -17,6 +17,7 @@
     width: 70vh;
     border-radius: 25px;
     margin-bottom: 1vh;
+    margin: 0 5vh 1vh 0;
     border: 0.5vh solid var(--primary-color);
 }
 
