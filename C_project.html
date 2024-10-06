@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleHeader.css">
+    <link rel="stylesheet" href="CSS/styleFooter.css">
+    <link rel="stylesheet" href="CSS/styleLoading.css">
+    <link rel="stylesheet" href="CSS_Projects/styleBody.css">
+    <link rel="stylesheet" href="CSS_Projects/styleProject.css">
+    <link rel="stylesheet" href="CSS/styleProjects.css">
+    <link rel="stylesheet" href="CSS/styleContact.css">
+    <script defer src="JS/functionHeader.js"></script>
+    <script defer src="JS/functionLogo.js"></script>
+    <script defer src="JS/functionLoading.js"></script>
+    <script defer src="JS/functionAnimation.js"></script>
+    <link rel="icon" type="image/gif" href="ICONS/b_cat.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <title>C Web Server</title>
+</head>
+<body>
+    <div class="loader"></div>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar"> 
+                    <img class="logo_s" src="ICONS/s_cat.png" alt="">
+                    <img class="logo_b hidden" src="ICONS/b_cat.png" alt="">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <img class="link-img" src="ICONS/about.png" alt="">
+                                <span class="link-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scroll_projects" class="nav-link">
+                                <img class="link-img" src="ICONS/skill.png" alt="">
+                                <span class="link-text">Supplementary Projects</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <img class="link-img" src="ICONS/contact.png" alt="">
+                                <span class="link-text">Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/CatGodOfTheWar" target="_blank" class="nav-link">
+                                <img class="link-img" src="ICONS/github.png" alt="">
+                                <span class="link-text">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="body-container">
+            <section class="web_server_section">
+                <div class="web_server_subcontainer subcontainer_1">
+                    <h1 class="title-web-server hide">C Web Server</h1>
+                    <p class="description-web-server hide">C-WebServer, a C-based web server,
+                        efficiently serves images, MP3s, HTML, CSS, and JavaScript files.
+                        While not the simplest solution, it offers essential features for web content delivery,
+                        making it suitable for developers looking for a lightweight and capable web server.
+                    </p>
+                    <div class="languages_used hide">
+                        <p class="language delay_1">CSS</p>
+                        <p class="language delay_2">C</p>
+                        <p class="language delay_3">JS</p>
+                        <p class="language delay_4">HTML</p>
+                        <p class="language delay_5">SHELL</p>
+                    </div>
+                    <a href="https://github.com/CatGodOfTheWar/C_web_server" class="source_code hide" target="_blank"><h2>Source code</h2></a>
+                </div>
+                <div class="web_server_subcontainer subcontainer_2">
+                    <img class="C_web_server hide" src="IMG/web_server_C.png" alt="">
+                </div>
+            </section>
+            <section class="projects-section" id="scroll_projects">
+                <div class="grid-projects">
+                    <div class="item item-1">
+                        <h1 class="project-title hide" >Supplementary Projects</h1>
+                    </div>
+                    <div class="item">
+                        <a href="Drone_project.html"><img src="IMG/Drone.png" class="project hide" alt="FPV Drone"></a>
+                        <h2 class="item-1-title hide">FPV Drone</h2>
+                    </div>
+                    <div class="item">
+                        <a href="Att_project.html"><img src="IMG/Attendance.png" class="project hide" alt="Auttomated Attendance"></a>
+                        <h2 class="item-1-title hide">Auttomated Attendance</h2>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="IMG/placeholder.jpg" class="project delay hide" alt="placeholder"></a>
+                        <h2 class="item-1-title delay hide">PlaceHolder</h2>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="IMG/placeholder.jpg" class="project hide" alt="placeholder"></a>
+                        <h2 class="item-1-title hide">PlaceHolder</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section" id="contact">
+                <h1 class="contact_me">Contact me</h1>
+                <div class="flex-container-email">
+                    <h2 class="collaborate">Let's discuss!</h2>
+                <a href="https://mail.google.com/mail/?view=cm&to=chirieacandrei@proton.me" target="_blank">
+                    <div class="email_link">
+                        <h3 class="mail">chirieacandrei@proton.me</h3>
+                    </div>
+                </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="sources">
+            <a href="http://www.onlinewebfonts.com" target="_blank" class="footer-link">Web Fonts</a>
+            <a href="https://icons8.com/" target="_blank" class="footer-link">Icons8</a>
+        </div>
+    </footer>
+</body>
+</html>
