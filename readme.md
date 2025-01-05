@@ -23,6 +23,7 @@ This is my personal portfolio website showcasing my projects and skills. It incl
 .
 ├── Att_project.html
 ├── C_project.html
+├── CV.pdf
 ├── CSS/
 │   ├── styleAboutMe.css
 │   ├── styleBody.css
